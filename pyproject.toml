@@ -1,0 +1,23 @@
+[project]
+name = "data-analysis-zxxc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "fastmcp>=2.12.2",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.32",
+    "langchain-text-splitters>=0.3.0",
+    "langfuse>=3.5.0",
+    "langgraph>=0.6.6",
+    "pandas>=2.3.2",
+    "sentence-transformers>=3.0.0",
+    "streamlit>=1.49.1",
+    "transformers>=4.40.0",
+    "uvicorn>=0.30.0",
+]
